@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+ feature/albumScreen
+		635603AC2B7A6D0F00056A36 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635603AB2B7A6D0F00056A36 /* AlbumCollectionViewCell.swift */; };
+		635603AE2B7A6D3D00056A36 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635603AD2B7A6D3D00056A36 /* AlbumViewController.swift */; };
+=======
 		7BF848F72B7A6D5C0085C8F9 /* SettingsPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF848F62B7A6D5C0085C8F9 /* SettingsPlayerViewController.swift */; };
+ main
 		FB8758282B751E41001D113B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8758272B751E41001D113B /* SearchViewController.swift */; };
 		FB87582A2B760287001D113B /* tracksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8758292B760287001D113B /* tracksModel.swift */; };
 		FBCE1E932B6CF26E000AB1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE1E922B6CF26E000AB1A8 /* AppDelegate.swift */; };
@@ -21,7 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+ feature/albumScreen
+		635603AB2B7A6D0F00056A36 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		635603AD2B7A6D3D00056A36 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+=======
 		7BF848F62B7A6D5C0085C8F9 /* SettingsPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPlayerViewController.swift; path = ../../../lesson1121/Spotify/Spotify/SettingsPlayerViewController.swift; sourceTree = "<group>"; };
+ main
 		FB8758272B751E41001D113B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FB8758292B760287001D113B /* tracksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracksModel.swift; sourceTree = "<group>"; };
 		FBCE1E8F2B6CF26E000AB1A8 /* spotifyIOS21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotifyIOS21.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		635603AA2B7A6CD600056A36 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				635603AB2B7A6D0F00056A36 /* AlbumCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		635603AF2B7A6DEC00056A36 /* AlbumScreen */ = {
+			isa = PBXGroup;
+			children = (
+				635603AD2B7A6D3D00056A36 /* AlbumViewController.swift */,
+			);
+			path = AlbumScreen;
+			sourceTree = "<group>";
+		};
 		FBCE1E862B6CF26E000AB1A8 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +131,8 @@
 		FBCE1EA92B7124B5000AB1A8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				635603AF2B7A6DEC00056A36 /* AlbumScreen */,
+				635603AA2B7A6CD600056A36 /* Cell */,
 				FBCE1EAE2B7128BB000AB1A8 /* AuthViewController.swift */,
 				FBCE1EB12B720593000AB1A8 /* WelcomeViewController.swift */,
 				FB8758272B751E41001D113B /* SearchViewController.swift */,
@@ -192,12 +220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635603AC2B7A6D0F00056A36 /* AlbumCollectionViewCell.swift in Sources */,
 				FBCE1EAB2B7124DC000AB1A8 /* AuthManager.swift in Sources */,
 				FB8758282B751E41001D113B /* SearchViewController.swift in Sources */,
 				FBCE1E932B6CF26E000AB1A8 /* AppDelegate.swift in Sources */,
 				FBCE1E952B6CF26E000AB1A8 /* SceneDelegate.swift in Sources */,
 				7BF848F72B7A6D5C0085C8F9 /* SettingsPlayerViewController.swift in Sources */,
 				FBCE1EAF2B7128BB000AB1A8 /* AuthViewController.swift in Sources */,
+				635603AE2B7A6D3D00056A36 /* AlbumViewController.swift in Sources */,
 				FB87582A2B760287001D113B /* tracksModel.swift in Sources */,
 				FBCE1EAD2B712862000AB1A8 /* AuthModel.swift in Sources */,
 				FBCE1EB22B720593000AB1A8 /* WelcomeViewController.swift in Sources */,
