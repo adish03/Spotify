@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635603B32B80A94E00056A36 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635603B22B80A94E00056A36 /* AlbumViewController.swift */; };
+		635603B52B80A97200056A36 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635603B42B80A97200056A36 /* AlbumCollectionViewCell.swift */; };
 		7BF848F92B7E60C20085C8F9 /* SettingsPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF848F82B7E60C20085C8F9 /* SettingsPlayerViewController.swift */; };
 		FB8758282B751E41001D113B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8758272B751E41001D113B /* SearchViewController.swift */; };
 		FB87582A2B760287001D113B /* tracksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8758292B760287001D113B /* tracksModel.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		635603B22B80A94E00056A36 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		635603B42B80A97200056A36 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
 		7BF848F82B7E60C20085C8F9 /* SettingsPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPlayerViewController.swift; path = ../../../lesson1121/Spotify/Spotify/SettingsPlayerViewController.swift; sourceTree = "<group>"; };
 		FB8758272B751E41001D113B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FB8758292B760287001D113B /* tracksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracksModel.swift; sourceTree = "<group>"; };
@@ -47,6 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		635603B02B80A8FA00056A36 /* AlbumScreen  */ = {
+			isa = PBXGroup;
+			children = (
+				635603B12B80A91C00056A36 /* CellForAlbumScreen */,
+				635603B22B80A94E00056A36 /* AlbumViewController.swift */,
+			);
+			path = "AlbumScreen ";
+			sourceTree = "<group>";
+		};
+		635603B12B80A91C00056A36 /* CellForAlbumScreen */ = {
+			isa = PBXGroup;
+			children = (
+				635603B42B80A97200056A36 /* AlbumCollectionViewCell.swift */,
+			);
+			path = CellForAlbumScreen;
+			sourceTree = "<group>";
+		};
 		CED042722B7A6CC500DE47E4 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,7 @@
 		FBCE1E912B6CF26E000AB1A8 /* spotifyIOS21 */ = {
 			isa = PBXGroup;
 			children = (
+				635603B02B80A8FA00056A36 /* AlbumScreen  */,
 				FBCE1EB02B712997000AB1A8 /* Models */,
 				FBCE1EA92B7124B5000AB1A8 /* Controllers */,
 				FBCE1EA82B7124AD000AB1A8 /* View */,
@@ -214,8 +236,10 @@
 				FBCE1E952B6CF26E000AB1A8 /* SceneDelegate.swift in Sources */,
 				7BF848F92B7E60C20085C8F9 /* SettingsPlayerViewController.swift in Sources */,
 				FBCE1EAF2B7128BB000AB1A8 /* AuthViewController.swift in Sources */,
+				635603B32B80A94E00056A36 /* AlbumViewController.swift in Sources */,
 				FB87582A2B760287001D113B /* tracksModel.swift in Sources */,
 				FBCE1EAD2B712862000AB1A8 /* AuthModel.swift in Sources */,
+				635603B52B80A97200056A36 /* AlbumCollectionViewCell.swift in Sources */,
 				FBCE1EB22B720593000AB1A8 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
